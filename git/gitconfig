@@ -1,0 +1,9 @@
+[user]
+	name = marvin.strangfeld
+	email = marvin.strangfeld@open-xchange.com
+[branch]
+	autosetuprebase = always
+[push]
+	default = upstream
+[remote "origin"]
+	prune = true

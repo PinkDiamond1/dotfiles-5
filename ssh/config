@@ -1,0 +1,8 @@
+Host strato
+ HostName 81.169.244.39
+
+Host oxtest
+ HostName 10.50.0.121
+ User debian
+
+IdentityFile ~/.ssh/id_rsa
