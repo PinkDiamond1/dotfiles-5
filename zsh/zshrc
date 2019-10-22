@@ -119,3 +119,13 @@ export SDKMAN_DIR="/home/marvin/.sdkman"
 export PATH=$PATH:/usr/local/go/bin:/home/marvin/go/bin
 export TERM=xterm-256color
 
+fpath=(/home/marvin/.zsh/gradle-completion $fpath)
+zstyle ':completion:*' use-cache on
+
+export PATH=$PATH:/home/marvin/.bin/
+
+if which ruby >/dev/null && which gem >/dev/null; then
+    PATH="$(ruby -r rubygems -e 'puts Gem.user_dir')/bin:$PATH"
+fi
+
+export PATH=$PATH:/home/marvin/.cargo/bin/
