@@ -5,4 +5,13 @@ Host oxtest
  HostName 10.50.0.121
  User debian
 
+Host netcup
+ HostName 188.68.39.4
+ User marvin
+
+Host rwth-hpc
+ HostName login18-1.hpc.itc.rwth-aachen.de
+ User io782677
+
 IdentityFile ~/.ssh/id_rsa
+AddKeysToAgent yes
