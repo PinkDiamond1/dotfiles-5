@@ -7,3 +7,7 @@
 	default = upstream
 [remote "origin"]
 	prune = true
+[core]
+	editor = vim
+[diff]
+	tool = vimdiff
