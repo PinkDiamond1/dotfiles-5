@@ -1,0 +1,5 @@
+#!/bin/bash
+
+set -Eeuo pipefail
+
+ykman oath code open-xchange.com:OX-SSO | awk '$0 ~ /open-xchange.com:OX-SSO/ {print $2}' | xclip -selection c
