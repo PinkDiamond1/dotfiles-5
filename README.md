@@ -3,54 +3,59 @@
 ## Software to install
 
 ### System Package Manager
-+ Chromium
-+ Discord
-+ Docker
-+ Firefiox
-+ Flatpak
-+ Gimp
-+ Golang
-+ LaTeX
-+ Neovim
-+ OBS Studio
-+ OpenJDK
-+ Python3
-+ Riot Chat
-+ Signal Desktop
-+ Steam
-+ Telegram Desktop
-+ VLC
-+ VirtualBox
-+ Visual Studio Code
 + alacritty
++ anki
++ ansible
 + bat
 + bazel
 + buildah
++ chromium
 + cmatrix
++ discord
++ docker
++ firefox
++ flatpak
 + fzf
 + gcc
++ gdb
++ gimp
 + git
++ golang
 + htop
 + kdeconnect
 + kubectl
++ latex
++ libreoffice
 + ltrace
 + make
++ mozilla rr
 + neofetch
++ neovim
 + npm
++ obs studio
++ openjdk
 + pandoc
 + pkgdiff
 + podman
 + powertop
++ python3
 + ranger
++ riot chat
 + rsync
 + ruby
++ signal desktop
++ steam
 + stow
 + strace
 + tar
++ telegram desktop
 + tig
 + tmux
 + tree
 + vim
++ virtualbox
++ visual studio code
++ vlc
 + xclip
 + zip
 
@@ -59,16 +64,18 @@
 + Rust (rustup)
 + SDKman
 + brew
++ k3s
 + starship
 
 ### Third-Party Packages
-+ pCloud Desktop
++ Microsoft Teams
 + Rocket.Chat
 + Zoom
++ pCloud Desktop
 
 ### Flatpak
-+ Spotify
 + Slack
++ Spotify
 
 ### NPM
 + bitwarden/cli
