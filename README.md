@@ -2,91 +2,92 @@
 
 ## Software to install
 
-### Development
-+ git
-+ gcc
-+ Go
-+ Rust
+### System Package Manager
++ Chromium
++ Discord
++ Docker
++ Firefiox
++ Flatpak
++ Gimp
++ Golang
++ LaTeX
++ Neovim
++ OBS Studio
 + OpenJDK
 + Python3
-+ Haskell
-+ LaTeX
-+ Android Studio
-+ Intellij Idea
-+ Intellij GoLand
-+ Intellij CLion
-+ Intellij PyCharm
-+ LazyGit
-+ SDKman
-+ Sublime Text
-+ Neovim
-+ Visual Studio Code
-
-### Creativity
-+ Audacity
-+ Blender
-+ Gimp
-+ Inkscape
-+ Krita
-+ OBS Studio
-
-### Communication
-+ Discord
 + Riot Chat
-+ Rocket.Chat
 + Signal Desktop
-+ Slack
++ Steam
 + Telegram Desktop
-+ Thunderbird Mail
++ VLC
++ VirtualBox
++ Visual Studio Code
++ alacritty
++ bat
++ bazel
++ buildah
++ cmatrix
++ fzf
++ gcc
++ git
++ htop
++ kdeconnect
++ kubectl
++ ltrace
++ make
++ neofetch
++ npm
++ pandoc
++ pkgdiff
++ podman
++ powertop
++ ranger
++ rsync
++ ruby
++ stow
++ strace
++ tar
++ tig
++ tmux
++ tree
++ vim
++ xclip
++ zip
+
+### Scripts
++ Intellij Idea (JetBrains Toolbox)
++ Rust (rustup)
++ SDKman
++ brew
++ starship
+
+### Third-Party Packages
++ pCloud Desktop
++ Rocket.Chat
 + Zoom
 
-### Entertainment
+### Flatpak
 + Spotify
-+ Spotify.d
-+ Steam
-+ VLC
++ Slack
 
-### Utilities
-+ bat
-+ Bitwarden
-+ Chromium
-+ Firefiox
+### NPM
++ bitwarden/cli
+
+### Golang
++ concom
++ gazelle
 + gotop
-+ htop
-+ KeePassXC
-+ pCloud Desktop
-+ ranger
-+ SyncMyL2P
-+ Terminator
-+ VirtualBox
-+ Xournal
-
-### VS Code extensions
-+ Beautify
-+ Code Runner
-+ Docker
-+ Docker WorkSpace
-+ GitLens
-+ Go
-+ Haskell
-+ LaTeX Workshop
-+ One Dark Pro
-+ Python
-+ Vim
-
-### ZSH Plugins
-+ sudo
-+ gitfast
-+ npm
-+ python
-+ pip
-+ vagrant 
++ lazygit
 
 ### SDKman
++ Ant
 + Gradle
 + Groovy
 + Kotlin
-+ kscript
++ Maven
++ Scala
++ Spring Boot
++ sbt
 
 ## LICENSE
 ```
