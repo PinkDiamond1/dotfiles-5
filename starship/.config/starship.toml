@@ -1,3 +1,6 @@
+[git_branch]
+style = "bold green"
+
 [custom.watson]
 command = "watson status -p"  # shows output of command
 when = """ [ "$(watson status -p)" != "No project started." ] """
