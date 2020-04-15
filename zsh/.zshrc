@@ -4,6 +4,7 @@ export TERM=xterm-256color
 
 fpath=($HOME/.zsh/gradle-completion $fpath)
 fpath=($HOME/.zsh/watson $fpath)
+fpath=($HOME/.asdf/completions $fpath)
 autoload -Uz compinit && compinit
 
 zstyle ':completion:*' menu select
@@ -14,6 +15,8 @@ source $HOME/.zsh/sudo/sudo.plugin.zsh
 
 setopt auto_cd
 . $HOME/.zsh/z/z.sh
+
+eval "$(asdf exec direnv hook zsh)"
 
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
@@ -26,8 +29,8 @@ fi
 export SSH_KEY_PATH="~/.ssh/rsa_id"
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="/home/marvin/.sdkman"
-[[ -s "/home/marvin/.sdkman/bin/sdkman-init.sh" ]] && source "/home/marvin/.sdkman/bin/sdkman-init.sh"
+#export SDKMAN_DIR="/home/marvin/.sdkman"
+#[[ -s "/home/marvin/.sdkman/bin/sdkman-init.sh" ]] && source "/home/marvin/.sdkman/bin/sdkman-init.sh"
 # Add golang to the path
 
 export NVM_LAZY_LOAD=true

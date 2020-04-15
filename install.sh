@@ -1,7 +1,9 @@
 #!/bin/sh
 
 stow alacritty
+stow asdf
 stow bin
+stow direnv
 stow git
 stow pulse
 stow ranger
