@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+
+bw_key=$(bw unlock --raw)
+bw --session ${bw_key} get item "$(bw --session ${bw_key} list items | jq '.[] | "\(.name) | username: \(.login.username) | id: \(.id)" ' | fzf | awk '{print $(NF -0)}' | sed 's/\"//g')" | jq '.login.password' | sed 's/\"//g' | xclip -sel clip
+bw lock

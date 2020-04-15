@@ -8,9 +8,11 @@
 + ansible
 + bat
 + bazel
++ borg
 + buildah
 + chromium
 + cmatrix
++ cpupower
 + discord
 + docker
 + firefox
@@ -22,6 +24,7 @@
 + git
 + golang
 + htop
++ jq
 + kdeconnect
 + kubectl
 + latex
@@ -49,13 +52,16 @@
 + strace
 + tar
 + telegram desktop
++ thermald
 + tig
++ tlp
 + tmux
 + tree
 + vim
 + virtualbox
 + visual studio code
 + vlc
++ weechat
 + xclip
 + zip
 

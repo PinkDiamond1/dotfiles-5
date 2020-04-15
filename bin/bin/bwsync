@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+
+bw_key=$(bw unlock --raw)
+bw --session ${bw_key} sync
+bw lock

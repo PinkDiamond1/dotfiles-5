@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+CW=`date +%V`
+FILENAME=CW$CW.md
+DIR=$HOME/ox/weeklyreports
+FILE=$DIR/current/$FILENAME
+
+DISTNAME=CW$CW.html
+DISTDIR=$DIR/dist
+DISTFILE=$DISTDIR/$DISTNAME
+
+if [ "$1" == "-b" ]; then
+	rm $DISTDIR*
+	pandoc $FILE -o $DISTFILE
+	xclip -selection clipboard -t text/html $DISTFILE
+	echo "Weekly Report is in clipboard..."
+else
+	vim $FILE
+fi

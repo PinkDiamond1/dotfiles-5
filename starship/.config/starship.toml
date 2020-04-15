@@ -1,0 +1,7 @@
+[custom.watson]
+command = "watson status -p"  # shows output of command
+when = """ [ "$(watson status -p)" != "No project started." ] """
+prefix = ""
+suffix = ""
+symbol = "⌛"
+disabled = true

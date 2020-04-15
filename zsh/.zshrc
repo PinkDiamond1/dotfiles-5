@@ -46,16 +46,4 @@ zz() {
   cd "$(_z -l 2>&1 | sed 's/^[0-9,.]* *//' | fzf -q "$_last_z_args")"
 }
 
-bwsync() {
-  bw_key=$(bw unlock --raw)
-  bw --session ${bw_key} sync
-  bw lock
-}
-
-bwcopy() {
-  bw_key=$(bw unlock --raw)
-  bw --session ${bw_key} get item "$(bw --session ${bw_key} list items | jq '.[] | "\(.name) | username: \(.login.username) | id: \(.id)" ' | fzf | awk '{print $(NF -0)}' | sed 's/\"//g')" | jq '.login.password' | sed 's/\"//g' | xclip -sel clip
-  bw lock
-}
-
 eval "$(starship init zsh)"
