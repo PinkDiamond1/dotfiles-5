@@ -1,3 +1,6 @@
+[user]
+	name = marvin.strangfeld
+	email = marvin@strangfeld.io
 [branch]
 	autosetuprebase = always
 [push]
@@ -8,3 +11,6 @@
 	editor = vim
 [diff]
 	tool = vimdiff
+
+[includeIf "gitdir:~/ox/"]
+	path = ~/ox/.gitconfig

@@ -1,3 +1,2 @@
-source $(asdf which direnv_use_asdf)
-
 export DIRENV_LOG_FORMAT=""
+source $(asdf which direnv_use_asdf)

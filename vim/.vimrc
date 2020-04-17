@@ -20,6 +20,7 @@ filetype plugin on
 filetype plugin indent on
 
 set backspace=indent,eol,start
+set mouse=a
 
 set undofile " Maintain undo history between sessions
 set undodir=~/.vim/undodir
