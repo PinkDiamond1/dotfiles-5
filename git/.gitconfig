@@ -1,5 +1,5 @@
 [user]
-	name = marvin.strangfeld
+	name = Marvin Strangfeld
 	email = marvin@strangfeld.io
 [branch]
 	autosetuprebase = always
@@ -14,3 +14,9 @@
 
 [includeIf "gitdir:~/ox/"]
 	path = ~/ox/.gitconfig
+
+[includeIf "gitdir:~/rwth/"]
+	path = ~/rwth/.gitconfig
+
+[includeIf "gitdir:~/strangfeld-io/"]
+	path = ~/strangfeld-io/.gitconfig

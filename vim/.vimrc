@@ -5,6 +5,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
   Plug 'tpope/vim-fugitive'
   Plug 'preservim/nerdtree'
+  Plug 'lervag/vimtex'
 call plug#end()
 
 " Color Scheme
@@ -48,6 +49,10 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 
 " Editorconfig ignore fugitive and remote files
 let g:EditorConfig_exclude_patterns = ['fugitive://.*', 'scp://.*']
+
+" LaTeX
+let g:tex_flavor = "latex"
+let g:vimtex_view_general_viewer = 'okular'
 
 " Golang Settings
 let g:go_fmt_command = "goimports"

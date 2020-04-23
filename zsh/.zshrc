@@ -1,3 +1,8 @@
+HISTFILE=~/.zsh_history
+HISTSIZE=10000
+SAVEHIST=10000
+setopt appendhistory
+
 source ~/.aliases
 
 export TERM=xterm-256color
@@ -15,6 +20,7 @@ source $HOME/.zsh/sudo/sudo.plugin.zsh
 
 setopt auto_cd
 . $HOME/.zsh/z/z.sh
+. $HOME/.zsh/fzf/key-bindings.zsh
 
 eval "$(asdf exec direnv hook zsh)"
 
