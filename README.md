@@ -24,8 +24,11 @@
 + git
 + golang
 + htop
++ hugo
++ jrnl
 + jq
 + kdeconnect
++ keybase
 + kubectl
 + latex
 + libreoffice
@@ -101,6 +104,12 @@
 + Scala
 + Spring Boot
 + sbt
+
+
+## Config
+
++ https://direnv.net/
++ https://jrnl.sh/
 
 ## LICENSE
 ```

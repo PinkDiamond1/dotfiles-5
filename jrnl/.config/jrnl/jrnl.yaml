@@ -1,0 +1,20 @@
+# https://jrnl.sh/
+colors:
+  body: none
+  date: Blue
+  tags: Magenta
+  title: Green
+default_hour: 9
+default_minute: 0
+editor: vim
+encrypt: true
+highlight: true
+indent_character: '|'
+journals:
+  default: ~/strangfeld-io/journal.txt
+  work: ~/ox/journal.txt
+linewrap: 79
+tagsymbols: '@'
+template: false
+timeformat: '%Y-%m-%d %H:%M'
+version: v2.3.1
