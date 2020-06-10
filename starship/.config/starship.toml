@@ -5,6 +5,36 @@ truncate_to_repo = false
 [git_branch]
 style = "bold green"
 
+[conda]
+disabled = true
+
+[crystal]
+disabled = true
+
+[dotnet]
+disabled = true
+
+[elixir]
+disabled = true
+
+[elm]
+disabled = true
+
+[erlang]
+disabled = true
+
+[haskell]
+disabled = true
+
+[python]
+disabled = false
+
+[kubernetes]
+disabled = true
+
+[singularity]
+disabled = true
+
 [custom.watson]
 command = "watson status -p"  # shows output of command
 when = """ [ "$(watson status -p)" != "No project started." ] """
